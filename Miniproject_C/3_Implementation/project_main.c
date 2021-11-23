@@ -15,9 +15,6 @@ int main()
      printf("\n\t\t\t   THE GAME ");
      printf("\n\t\t________________________________________");
      printf("\n\t\t________________________________________");
-     printf("\n\t\t   BECOME A MILLIONAIRE!!!!!!!!!!!    ") ;
-     printf("\n\t\t________________________________________");
-     printf("\n\t\t________________________________________");
      printf("\n\t\t > Press S to start the game");
      printf("\n\t\t > Press V to view the highest score  ");
      printf("\n\t\t > Press R to reset score");
@@ -98,7 +95,7 @@ int main()
 }
 		else
 		       {
-		           printf("\n\nWrong!!! The correct answer is C.23232");
+		           printf("\n\nWrong!!! The incorrect answer");
 		           getch();
 		       break;
 		       }
@@ -111,7 +108,7 @@ int main()
 			getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is C.Switzerland");
+		       {printf("\n\nWrong!!!The incorrect answer");
 		       getch();
 		       break;}
 
@@ -123,7 +120,7 @@ int main()
 			getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is B.Hyena");
+		       {printf("\n\nWrong!!! The incorrect answer");
 		       getch();
 		       break;}
 
@@ -135,7 +132,7 @@ int main()
 			getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is B.Lucas Podolski");
+		       {printf("\n\nWrong!!! The incorrect answer");
 		       getch();
 		       break;}
 
@@ -147,7 +144,7 @@ int main()
                getch();
                 break;}
         else
-		       {printf("\n\nWrong!!! The correct answer is B.Mt. Kanchanjungha");
+		       {printf("\n\nWrong!!! The incorrect answer");
 		       getch();
 		       break;}
 
@@ -159,7 +156,7 @@ int main()
 			getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is D.An Army");
+		       {printf("\n\nWrong!!! The incorrect answer");
 		       getch();
 		       break;}}
 		       }
@@ -194,7 +191,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;getch();}
 		else
-		       {printf("\n\nWrong!!! The correct answer is C.Cricket");getch();
+		       {printf("\n\nWrong!!! The incorrect answer");getch();
 		       goto score;
 		       break;}
 
@@ -205,7 +202,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is A.Seismology");getch();
+		       {printf("\n\nWrong!!! The incorrect answer");getch();
 		      goto score;
 		       break;
 		       }
@@ -217,7 +214,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is C.8");getch();
+		       {printf("\n\nWrong!!! The incorrect answer");getch();
 		       goto score;
 		       break;}
 
@@ -229,7 +226,7 @@ game:
 			 break;}
 		else
 		       {
-                printf("\n\nWrong!!! The correct answer is A.Faraday");getch();
+                printf("\n\nWrong!!! The incorrect answer");getch();
 		       goto score;
 		       break;
 		       }
@@ -241,7 +238,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++;getch(); break;}
 		else
 		       {
-		           printf("\n\nWrong!!! The correct answer is B.Power");
+		           printf("\n\nWrong!!! The incorrect answer");
 		       getch();
 		       goto score;
 		       break;
@@ -254,7 +251,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is B.Cobalt");goto score;
+		       {printf("\n\nWrong!!! The incorrect answer");goto score;
 		       getch();
 		       break;}
 
@@ -265,7 +262,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is D.Nippon");getch();
+		       {printf("\n\nWrong!!! The incorrect answer");getch();
 		       goto score;
 		       break;}
 
@@ -275,7 +272,7 @@ game:
 		if (toupper(getch())=='B')
 			{printf("\n\nCorrect!!!");countr++;getch(); break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is B.7");getch();
+		       {printf("\n\nWrong!!! The incorrect answer");getch();
 		       goto score;
 		       break;}
 
@@ -286,7 +283,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is A.Copenhagen");getch();
+		       {printf("\n\nWrong!!! The incorrect answer");getch();
 		       goto score;
 		       break;}
 
@@ -296,7 +293,7 @@ game:
 		if (toupper(getch())=='A')
 			{printf("\n\nCorrect!!!");countr++;getch(); break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is A.Nile");getch();break;goto score;}
+		       {printf("\n\nWrong!!! The incorrect answer");getch();break;goto score;}
 
         case 11:
 		printf("\n\n\nWhat is the color of the Black Box in aeroplanes?");
@@ -305,7 +302,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-              {printf("\n\nWrong!!! The correct answer is C.Orange");getch();
+              {printf("\n\nWrong!!! The incorrect answer");getch();
               break;goto score;}
 
         case 12:
@@ -315,7 +312,7 @@ game:
 			  {printf("\n\nCorrect!!!");countr++;getch();
 			   break;}
 		else
-              {printf("\n\nWrong!!! The correct answer is A.Rome");getch();
+              {printf("\n\nWrong!!! The incorrect answer");getch();
               break;goto score;}
 
 		case 13:
@@ -325,7 +322,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++;getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is D.France");getch();
+		       {printf("\n\nWrong!!! The incorrect answer");getch();
 		       break;goto score;}
 
         case 14:
@@ -335,7 +332,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is A.Narayan Wagle");getch();
+		       {printf("\n\nWrong!!! The incorrect answer");getch();
 		       break;goto score;}
 
 		case 15:
@@ -345,7 +342,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++;getch();
 			 break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is B.AB");getch();
+		       {printf("\n\nWrong!!! The incorrect answer");getch();
 		       goto score;
 		       break;}
 
@@ -357,7 +354,7 @@ game:
 			break;
 			}
 		else
-		       {printf("\n\nWrong!!! The correct answer is A.Light Year");getch();
+		       {printf("\n\nWrong!!! The incorrect answer");getch();
 		       goto score;
 		       break;}
 
@@ -369,7 +366,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is A.Brazil");getch();goto score;
+		       {printf("\n\nWrong!!! The incorrect answer");getch();goto score;
 		       break;}
 
 		case 18:
@@ -379,7 +376,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is D.Anemometer");getch();goto score;
+		       {printf("\n\nWrong!!! The incorrect answer");getch();goto score;
 		       break;}
 
 		case 19:
@@ -389,7 +386,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is C.Kathmandu");getch();goto score;
+		       {printf("\n\nWrong!!! The incorrect answer");getch();goto score;
 		       break;}
 
 		case 20:
@@ -399,7 +396,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is B.Valves");getch();goto score;
+		       {printf("\n\nWrong!!! The incorrect answer");getch();goto score;
 		       break;}
 
 		case 21:
@@ -409,7 +406,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is D. C.F.C");getch();goto score;
+		       {printf("\n\nWrong!!! The incorrect answer");getch();goto score;
 		       break;}
 
 		case 22:
@@ -419,7 +416,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is D.Serena Williams");getch();goto score;
+		       {printf("\n\nWrong!!! The incorrect answer");getch();goto score;
 		       break;}
 
 		case 23:
@@ -429,7 +426,7 @@ game:
 			{printf("\n\nCorrect!!!");countr++; getch();
 			break;}
 		else
-		       {printf("\n\nWrong!!! The correct answer is C.The King's Speech");getch();goto score;
+		       {printf("\n\nWrong!!! The incorrect answer");getch();goto score;
 		       break;}}}
 	score:
     system("cls");
@@ -442,7 +439,6 @@ game:
 	 else if(score==1000000.00)
 	{
 	    printf("\n\n\n \t\t**************** CONGRATULATION ****************");
-	    printf("\n\t\t\t\t YOU ARE A MILLIONAIRE!!!!!!!!!");
 	    printf("\n\t\t You won $%.2f",score);
 	    printf("\t\t Thank You!!");
 	}
