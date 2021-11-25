@@ -1,5 +1,5 @@
 #include "compute.h"
-		
+//Function to show previous record of scores
 void show_record()
     {system("cls");
 	char name[20];
@@ -13,6 +13,7 @@ void show_record()
 	fclose(f);
 	getch();}
 
+//Function to reset scores of a particular player
 void reset_score()
     {system("cls");
     float sc;
@@ -24,6 +25,7 @@ void reset_score()
 	fprintf(f,"%s,%.2f",nm,sc);
     fclose(f);}
 
+// Function to get help about how to play game
 void help()
 	{system("cls");
     printf("\n\n                              HELP");
@@ -44,6 +46,7 @@ void help()
 	printf("\n\n\t*********************BEST OF LUCK*********************************");
 	printf("\n\n\t*****C PROGRAM QUIZ GAME is developed by CODE WITH C TEAM********");}
 
+// Function for adding scores
 void edit_score(float score, char plnm[20])
 	{system("cls");
 	float sc;
