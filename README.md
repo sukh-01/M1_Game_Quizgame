@@ -3,3 +3,4 @@
 
 # M1_Game_Quizgame
 A quiz game for fun
+![gif1](https://user-images.githubusercontent.com/77190311/143394635-a16fde70-b403-4c73-a248-4ecac879ac2b.gif)
