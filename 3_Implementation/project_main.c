@@ -5,6 +5,7 @@ int main()
      float score;
      char choice;
      char playername[20];
+// Game start
      mainhome:
      system("cls");
      printf("\t\t\tC PROGRAM QUIZ GAME\n");
