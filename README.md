@@ -4,6 +4,7 @@
 [![Unit_Testing](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/unit_Testing.yml/badge.svg)](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/unit_Testing.yml)
 [![Linux OS Build](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/linux.yml/badge.svg)](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/linux.yml)
 [![Windows C/C++ CI - Build Status](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/buildwindows.yml/badge.svg)](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/buildwindows.yml) 
+[![CodeQuality Dynamic Code Analysis Valgrind](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/valgrind.yml/badge.svg)](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/valgrind.yml)
 
 # M1_Game_Quizgame
 A quiz game for fun
