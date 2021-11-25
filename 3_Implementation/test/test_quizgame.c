@@ -2,11 +2,9 @@
 #include "../inc/quizhead.h"
 
 /* Prototypes for all the test functions */
-void test_year_entered(void);
-void test_month_entered(void);
-void test_date_entered(void);
-
-
+void test_show_record(void);
+void test_reset_score(void);
+void test_help(void);
 
 void setUp(){}
 void tearDown(){}
@@ -18,9 +16,9 @@ int main()
 
 /* Run Test functions */
 
-  RUN_TEST(test_year_entered);
-  RUN_TEST(test_month_entered);
-  RUN_TEST(test_date_entered);
+  RUN_TEST(test_show_record);
+  RUN_TEST(test_reset_score);
+  RUN_TEST(test_help);
  
 
   /* Close the Unity Test Framework */
@@ -28,19 +26,14 @@ int main()
 }
 
 void test_year_entered(void){
-    TEST_ASSERT_EQUAL(2021, year_entered(2021));
-    TEST_ASSERT_EQUAL(1999, year_entered(1999));
+    TEST_ASSERT_EQUAL(test_show_record);
 }
 
 void test_month_entered(void){
-    TEST_ASSERT_EQUAL(10, month_entered(10));
-    TEST_ASSERT_EQUAL(01, month_entered(01));
+    TEST_ASSERT_EQUAL(test_reset_score);
     
 }
 
 void test_date_entered(void){
-    TEST_ASSERT_EQUAL(25, date_entered(25));
-    TEST_ASSERT_EQUAL(10, date_entered(10));
-    
-
+    TEST_ASSERT_EQUAL(test_help);
 }
