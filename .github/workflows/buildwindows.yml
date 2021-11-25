@@ -1,4 +1,4 @@
-name: Build Windows
+name: Windows C/C++ CI - Build Status
 
 on:
   push:
@@ -13,5 +13,3 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make all
-      run:  make all -C 3_Implementation/
