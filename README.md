@@ -2,6 +2,7 @@
 [![Static code Cppcheck](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/cppcheck.yml/badge.svg)](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/cppcheck.yml)
 [![Git Inspector](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/main.yml/badge.svg)](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/main.yml)
 [![Unit_Testing](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/unit_Testing.yml/badge.svg)](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/unit_Testing.yml)
+[![Linux OS Build](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/linux.yml/badge.svg)](https://github.com/sukh-01/M1_Game_Quizgame/actions/workflows/linux.yml)
 
 # M1_Game_Quizgame
 A quiz game for fun
